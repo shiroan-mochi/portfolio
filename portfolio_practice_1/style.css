@@ -1,0 +1,132 @@
+
+@media screen and (max-width:1200px) {
+
+header {
+  max-width: 1100px;
+  margin: 20px auto;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+h1 {
+  border: solid 1px black;
+  font-size: 34px;
+  padding: 5px 10px;
+  margin: 0;
+}
+
+#nav {
+  font-size: 34px;
+}
+
+#nav > a {
+  text-decoration: none;
+  color: black;
+}
+
+#main-visual {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+section {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 34px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+}
+
+#about-photo {
+  width: 196px;
+  height: 196px;
+}
+
+.index-h2 {
+  font-size: 34px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
+}
+
+
+#works {
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: 600px
+}
+
+.works-item {
+  width: 100%;
+}
+
+.item,.item-center {
+ margin: 0 30px;
+}
+
+
+
+footer {
+  text-align: center;
+}
+}
+
+/* スマートフォン用スタイル */
+@media screen and (min-width:767px) {
+  #nav > a {
+    margin-right: 20px;
+  }
+
+  h1 {
+    margin: 0 10px;
+  }
+
+  #works {
+    display: block;
+  }
+
+  .works-item > img {
+    width: 100%;
+  }
+
+  .item ,.item-center > img {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .item ,.item-center > p {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .works-item {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
