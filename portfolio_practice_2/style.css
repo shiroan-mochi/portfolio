@@ -1,0 +1,116 @@
+header {
+  max-width: 1280px;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+}
+
+h1 {
+  margin: 120px 200px;
+  font-weight: normal;
+}
+
+#img-insta {
+  width: 20px;
+  height: 20px;
+}
+
+li {
+  font-size: 15px;
+  display: inline-block;
+  margin-left: 25px;
+}
+
+
+li>a {
+  text-decoration: none;
+  color: black;
+}
+
+.inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav {
+  margin: 120px auto;
+}
+
+#main-visual {
+  width: 100%;
+  height: 420px;
+}
+
+h2 {
+  text-align: center;
+  margin: 150px auto 80px auto;
+}
+
+.profile {
+  margin: 100px 150px;
+  text-align: left;
+}
+
+.name {
+  margin: 45px auto;
+}
+
+.profile-address {
+  line-height: 2.5px;
+}
+
+.description {
+  margin: 45px auto;
+}
+
+.works1>img {
+  width: 280px;
+  padding: 10px;
+}
+
+.top {
+  margin: 0 0 0 187px;
+}
+
+h3 {
+  font-weight: normal;
+  display: inline-flex;
+  margin-left: 60px;
+}
+
+
+.newsList {
+  display: grid;
+}
+
+.newsList>li {
+  padding: 0 250px;
+}
+
+.newsList-item {
+  border-top: 1px solid #e5e7ed;
+}
+
+.newsList {
+  border-bottom: 1px solid #e5e7ed;
+}
+
+.contact-form {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+
+footer {
+  background-color: black;
+  height: 35px;
+}
+
+footer>p {
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  padding: 10px;
+}
+
